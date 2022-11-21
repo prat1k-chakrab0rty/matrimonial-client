@@ -1,0 +1,49 @@
+.b{
+    margin: 0;
+    margin-top: 30px;
+    color: rgb(252, 97, 123);
+    background-color: rgb(235, 232, 232);
+}
+.c{
+    text-align: center;
+    background-color: rgb(255, 204, 213);
+}
+.d{
+    padding-left: 10%;
+}
+.e{
+    width: 50%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    background-color: pink;
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 5px 0;
+}
+.e:hover{
+    background-color: rgb(252, 97, 123);
+}
+.f{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.g{
+    width: 30%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -20px;
+
+}
+.h{
+    width: 70%;
+}
+.i{
+    border: solid 1px;
+    border-color: rgb(209, 209, 209);
+    margin-top: 10px;
+}

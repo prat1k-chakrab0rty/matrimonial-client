@@ -1,0 +1,10 @@
+.a{
+    text-align: center;
+    margin: 0;
+}
+
+.LoginForm{
+    width: 15%;
+    border: 1px solid;
+    padding: 30px 10px;
+}
