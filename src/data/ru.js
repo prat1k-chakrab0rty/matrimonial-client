@@ -1,13 +1,13 @@
 export const data = [
     {
-        "name": "Vaishnavi",
+        "name": "Vikram",
         "age": 24,
         "religion": "Hindu"
 
 
     },
     {
-        "name": "Pratik",
+        "name": "Betaal",
         "age": 24,
         "religion": "Hindu"
     }

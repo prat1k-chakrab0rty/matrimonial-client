@@ -1,0 +1,25 @@
+.qw {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.w {
+    width: 60%;
+    background-color: pink;
+    padding: 0 10px 20px 10px;
+    margin: 5px;
+    border-radius: 30px;
+    margin-left: 20%;
+    margin-top: 20px;
+}
+
+.zz {
+    width: 40%;
+    margin: auto;
+}
+
+.empty {
+    margin: 10px;
+}

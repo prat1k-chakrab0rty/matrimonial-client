@@ -1,6 +1,12 @@
 import React from 'react'
 import './LoginForm.css'
-function LoginForm() {
+function LoginForm({setTriggerRegister,setTriggerLogin}) {
+  function onPress() {
+    setTriggerRegister(true);
+  }
+  function onLogin() {
+    setTriggerLogin(true);
+  }
   return (
     <div className='LoginForm'>
         <p className='a'>USER LOGIN</p>
@@ -12,7 +18,8 @@ function LoginForm() {
             <label>Password</label>
             <input type="Password"/>
         </div>
-        <button type='submit'>LOGIN</button>
+        <button onClick={onLogin} className='sdf' type='submit'>LOGIN</button>
+        <button onClick={onPress}>New User?Register here.</button>
         <div></div>
     </div>
   )

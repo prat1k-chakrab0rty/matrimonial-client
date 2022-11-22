@@ -1,0 +1,18 @@
+.fd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1% 30%;
+}   
+
+.xaa{
+    padding: 2% 0;
+}
+.fdda{
+    margin-left: 32%;
+    background-color: rgb(255, 115, 138);
+    border: solid rgb(201, 41, 41) 2px;
+    border-radius: 10px;
+    padding: 6px 20px;
+    cursor: pointer;
+}

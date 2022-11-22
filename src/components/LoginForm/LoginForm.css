@@ -4,7 +4,13 @@
 }
 
 .LoginForm{
-    width: 15%;
+    width: 95%;
     border: 1px solid;
     padding: 30px 10px;
+    border-radius: 5px;
+}
+
+.sdf{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
